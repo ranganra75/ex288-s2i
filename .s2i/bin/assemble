@@ -10,7 +10,7 @@ config_s2i
 
 
 ######## CUSTOMIZATION START HERE #######
-cp -RF /tmp/src/*.html   ./
+cp -Rf /tmp/src/*.html   ./
 HOST=$(date +%F)
 echo "$HOST" > ./info.html
 echo "Amki insent, sed on light." >> ./info.html
