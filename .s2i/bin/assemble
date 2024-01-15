@@ -11,7 +11,7 @@ config_s2i
 
 ######## CUSTOMIZATION START HERE #######
 cp /tmp/src/*.html ./
-DATE=#(date +%F)
+DATE=$(date +%F)
 echo "$date Amki insent, sed on light." >> /info.html
 ######## CUSTOMIZATION ENDS HERE ############
 
