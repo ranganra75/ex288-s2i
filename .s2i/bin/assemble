@@ -10,7 +10,9 @@ config_s2i
 
 
 ######## CUSTOMIZATION START HERE #######
-
+cp -Rf /tmp/src/* ./
+DATE=$(date +%F)
+echo $DATE "Amki insent, sed on light" >> ./info.html
 #### #CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
