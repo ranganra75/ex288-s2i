@@ -12,7 +12,7 @@ config_s2i
 ######## CUSTOMIZATION START HERE #######
 cp -Rf /tmp/src/*.html ./
 DATE=$(date +%F)
-echo "$DATE The war is for victory, and live like hero"
+echo "$DATE The war is for victory, and live like hero" > ./info.html
 #### #CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
