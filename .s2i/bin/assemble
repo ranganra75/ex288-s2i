@@ -10,7 +10,7 @@ config_s2i
 
 
 ######## CUSTOMIZATION START HERE ##########
-cp -R-f /tmp/src/*.html ./
+cp -Rf /tmp/src/*.html ./
 DATE=$(date +%F)
 echo $DATE "The war is for victory, and the hero lives forever" > ./info.html
 #### #CUSTOMIZATION ENDS HERE ############
